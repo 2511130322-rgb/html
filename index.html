@@ -1,0 +1,252 @@
+
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Portafolio profesional de desarrollador web">
+    <title>Portafolio | Desarrollador Web</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header class="header" id="header">
+        <nav class="nav container">
+            <a href="#" class="nav__logo">Dev<span>Portfolio</span></a>
+            <ul class="nav__menu" id="nav-menu">
+                <li class="nav__item">
+                    <a href="#inicio" class="nav__link">Inicio</a>
+                </li>
+                <li class="nav__item">
+                    <a href="#sobre-mi" class="nav__link">Sobre mí</a>
+                </li>
+                <li class="nav__item">
+                    <a href="#proyectos" class="nav__link">Proyectos</a>
+                </li>
+                <li class="nav__item">
+                    <a href="#habilidades" class="nav__link">Habilidades</a>
+                </li>
+                <li class="nav__item">
+                    <a href="#contacto" class="nav__link">Contacto</a>
+                </li>
+            </ul>
+            <div class="nav__toggle" id="nav-toggle">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <section class="hero" id="inicio">
+            <div class="hero__container container">
+                <div class="hero__content">
+                    <h1 class="hero__title">
+                        Hola, soy <span class="hero__highlight">Desarrollador Web</span>
+                    </h1>
+                    <p class="hero__description">
+                        Creo experiencias digitales modernas, accesibles y performantes.
+                        Especializado en desarrollo frontend y full-stack.
+                    </p>
+                    <div class="hero__buttons">
+                        <a href="#proyectos" class="btn btn--primary">Ver Proyectos</a>
+                        <a href="#contacto" class="btn btn--secondary">Contactar</a>
+                    </div>
+                    <div class="hero__social">
+                        <a href="#" class="hero__social-link" aria-label="GitHub">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"></path></svg>
+                        </a>
+                        <a href="#" class="hero__social-link" aria-label="LinkedIn">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"></path><rect x="2" y="9" width="4" height="12"></rect><circle cx="4" cy="4" r="2"></circle></svg>
+                        </a>
+                        <a href="#" class="hero__social-link" aria-label="Twitter">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M23 3a10.9 10.9 0 0 1-3.14 1.53 4.48 4.48 0 0 0-7.86 3v1A10.66 10.66 0 0 1 3 4s-4 9 5 13a11.64 11.64 0 0 1-7 2c9 5 20 0 20-11.5a4.5 4.5 0 0 0-.08-.83A7.72 7.72 0 0 0 23 3z"></path></svg>
+                        </a>
+                    </div>
+                </div>
+                <div class="hero__image">
+                    <div class="hero__shape"></div>
+                </div>
+            </div>
+            <div class="hero__scroll">
+                <span class="hero__scroll-text">Scroll</span>
+                <svg class="hero__scroll-icon" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 5v14M19 12l-7 7-7-7"></path></svg>
+            </div>
+        </section>
+
+        <section class="about" id="sobre-mi">
+            <div class="container">
+                <h2 class="section__title">Sobre mí</h2>
+                <div class="about__container">
+                    <div class="about__image">
+                        <div class="about__img-wrapper">
+                            <div class="about__shape"></div>
+                        </div>
+                    </div>
+                    <div class="about__content">
+                        <h3 class="about__subtitle">Desarrollador Full-Stack Apasionado</h3>
+                        <p class="about__description">
+                            Con más de 3 años de experiencia creando aplicaciones web escalables y mantenibles.
+                            Me especializo en tecnologías modernas como React, Node.js, TypeScript y bases de datos
+                            tanto SQL como NoSQL.
+                        </p>
+                        <p class="about__description">
+                            Mi enfoque se centra en escribir código limpio, realizar pruebas exhaustivas y seguir
+                            las mejores prácticas de la industria. Disfruto resolviendo problemas complejos y
+                            aprendiendo nuevas tecnologías constantemente.
+                        </p>
+                        <div class="about__stats">
+                            <div class="stat">
+                                <span class="stat__number" data-count="50">0</span>
+                                <span class="stat__label">Proyectos</span>
+                            </div>
+                            <div class="stat">
+                                <span class="stat__number" data-count="3">0</span>
+                                <span class="stat__label">Años Exp.</span>
+                            </div>
+                            <div class="stat">
+                                <span class="stat__number" data-count="20">0</span>
+                                <span class="stat__label">Tecnologías</span>
+                            </div>
+                        </div>
+                        <a href="#contacto" class="btn btn--primary about__btn">Trabajemos Juntos</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="projects" id="proyectos">
+            <div class="container">
+                <h2 class="section__title">Proyectos Destacados</h2>
+                <div class="projects__filters">
+                    <button class="filter__btn active" data-filter="all">Todos</button>
+                    <button class="filter__btn" data-filter="frontend">Frontend</button>
+                    <button class="filter__btn" data-filter="fullstack">Full-Stack</button>
+                    <button class="filter__btn" data-filter="backend">Backend</button>
+                </div>
+                <div class="projects__grid" id="projects-grid">
+                </div>
+            </div>
+        </section>
+
+        <section class="skills" id="habilidades">
+            <div class="container">
+                <h2 class="section__title">Habilidades Técnicas</h2>
+                <div class="skills__container">
+                    <div class="skills__category">
+                        <h3 class="skills__category-title">Frontend</h3>
+                        <div class="skills__list" id="frontend-skills"></div>
+                    </div>
+                    <div class="skills__category">
+                        <h3 class="skills__category-title">Backend</h3>
+                        <div class="skills__list" id="backend-skills"></div>
+                    </div>
+                    <div class="skills__category">
+                        <h3 class="skills__category-title">Herramientas & Otros</h3>
+                        <div class="skills__list" id="tools-skills"></div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="contact" id="contacto">
+            <div class="container">
+                <h2 class="section__title">Contacto</h2>
+                <div class="contact__container">
+                    <div class="contact__info">
+                        <h3 class="contact__subtitle">Hablemos de tu proyecto</h3>
+                        <p class="contact__description">
+                            Estoy abierto a nuevas oportunidades y colaboraciones interesantes.
+                            No dudes en contactarme.
+                        </p>
+                        <div class="contact__details">
+                            <div class="contact__item">
+                                <div class="contact__icon">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"></path><polyline points="22,6 12,13 2,6"></polyline></svg>
+                                </div>
+                                <div class="contact__item-info">
+                                    <span class="contact__item-label">Email</span>
+                                    <a href="mailto:hola@ejemplo.com" class="contact__item-value">hola@ejemplo.com</a>
+                                </div>
+                            </div>
+                            <div class="contact__item">
+                                <div class="contact__icon">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"></path><circle cx="12" cy="10" r="3"></circle></svg>
+                                </div>
+                                <div class="contact__item-info">
+                                    <span class="contact__item-label">Ubicación</span>
+                                    <span class="contact__item-value">Madrid, España</span>
+                                </div>
+                            </div>
+                            <div class="contact__item">
+                                <div class="contact__icon">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"></circle><polyline points="12 6 12 12 16 14"></polyline></svg>
+                                </div>
+                                <div class="contact__item-info">
+                                    <span class="contact__item-label">Disponibilidad</span>
+                                    <span class="contact__item-value">Lun-Vie, 9:00-18:00</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <form class="contact__form" id="contact-form">
+                        <div class="form__group">
+                            <label for="name" class="form__label">Nombre</label>
+                            <input type="text" id="name" name="name" class="form__input" required placeholder="Tu nombre">
+                        </div>
+                        <div class="form__group">
+                            <label for="email" class="form__label">Email</label>
+                            <input type="email" id="email" name="email" class="form__input" required placeholder="tu@email.com">
+                        </div>
+                        <div class="form__group">
+                            <label for="subject" class="form__label">Asunto</label>
+                            <input type="text" id="subject" name="subject" class="form__input" required placeholder="Asunto del mensaje">
+                        </div>
+                        <div class="form__group">
+                            <label for="message" class="form__label">Mensaje</label>
+                            <textarea id="message" name="message" class="form__textarea" rows="5" required placeholder="Tu mensaje..."></textarea>
+                        </div>
+                        <button type="submit" class="btn btn--primary form__submit">
+                            <span>Enviar Mensaje</span>
+                            <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="5" y1="12" x2="19" y2="12"></line><polyline points="12 5 19 12 12 19"></polyline></svg>
+                        </button>
+                        <p class="form__message" id="form-message"></p>
+                    </form>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <div class="container">
+            <div class="footer__content">
+                <a href="#" class="footer__logo">Dev<span>Portfolio</span></a>
+                <p class="footer__description">
+                    Desarrollado con pasión usando HTML5, CSS3 y JavaScript vanilla.
+                </p>
+                <div class="footer__social">
+                    <a href="#" class="footer__social-link" aria-label="GitHub">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"></path></svg>
+                    </a>
+                    <a href="#" class="footer__social-link" aria-label="LinkedIn">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"></path><rect x="2" y="9" width="4" height="12"></rect><circle cx="4" cy="4" r="2"></circle></svg>
+                    </a>
+                    <a href="#" class="footer__social-link" aria-label="Twitter">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M23 3a10.9 10.9 0 0 1-3.14 1.53 4.48 4.48 0 0 0-7.86 3v1A10.66 10.66 0 0 1 3 4s-4 9 5 13a11.64 11.64 0 0 1-7 2c9 5 20 0 20-11.5a4.5 4.5 0 0 0-.08-.83A7.72 7.72 0 0 0 23 3z"></path></svg>
+                    </a>
+                </div>
+                <p class="footer__copyright">&copy; 2024 DevPortfolio. Todos los derechos reservados.</p>
+            </div>
+        </div>
+    </footer>
+
+    <button class="scroll-top" id="scroll-top" aria-label="Volver arriba">
+        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="18 15 12 9 6 15"></polyline></svg>
+    </button>
+
+    <script src="script.js"></script>
+</body>
+</html>
